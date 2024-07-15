@@ -1,0 +1,455 @@
+body {
+    box-sizing: border-box;
+    height:auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    font-family: Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: auto;
+    background-color: rgb(5, 5, 5);
+}
+
+.header-left-container {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+    padding: 0;
+    margin-left: 250px;    
+    height: 100px;
+    width: auto;
+}
+
+.header-right-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0;
+    margin: 0;    
+    height: 100px;
+    width: auto;
+}
+
+.header-logo {
+    width: max-content;
+    color: white;
+}
+
+.header-right-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    align-items: center;
+
+}
+
+.header-right-container li {
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+
+    height: 300px;
+    width: auto;
+    background-color: rgb(5, 5, 5);
+}
+
+.left-container {
+    display: flex;
+    flex: 2;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+    
+    height: 300px;
+    width: auto;
+
+}   
+
+
+
+.sub-message {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    border: 2px solid black;
+    margin-top: -25 px;
+
+    height: 100px;
+    width: 450px;
+    color: white;
+    font-size: 150;
+}
+
+.insert-email {
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    width: 450px;
+
+}
+
+.insert-email input {
+    display: flex;
+    align-items: end;
+    width: 385px;
+    background-color: rgb(5, 5, 5);
+    font-size: 150;
+    color: white;
+
+
+}
+
+.insert-email button {
+    padding: 5px;
+}
+
+.right-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+    
+    height: 300px;
+    width: auto;
+}
+
+.right-container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 2px;
+
+    padding: 0;
+    margin-top: 60px;
+    margin-left: 235px;
+
+    font-size: 10px;
+
+}
+
+.right-container p {
+    color: white;
+
+    padding: 0;
+    margin-left: 100px;
+    font-size: 8px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.middle-panel {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.top-middle-panel {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-middle-panel-title {
+    height: 20px;
+    width: max-content;
+    margin-bottom: 20px;
+    margin-left: -920px;
+
+    padding: 0;
+
+    font-size: larger;
+    font-weight: 900;
+}
+
+.article-container-same {
+    display: flex;
+    flex-direction: row;
+    height:400px;
+    width:1200px;
+}
+
+.article-container1 {
+    margin-bottom: 15px;
+    padding: 0;
+    gap: 30px;
+
+}
+
+.article-container2 {
+    margin-top: 15px;
+    padding: 0;
+    gap: 30px;
+
+}
+
+.size {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.article1-image {
+    background-color: green;
+    height: 335px;
+    width: auto;
+    display: block;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.article2-image {
+    background-color: green;
+    height: 335px;
+    width: auto;
+    display: block;
+}
+
+.article3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.article3-image {
+    background-color: green;
+    height: 335px;
+    width: auto;
+    display: block;
+}
+
+.article4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.article4-image {
+    background-color: green;
+    height: 335px;
+    width: auto;
+    display: block;
+}
+
+.article1-read-more-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content:space-between;
+    border: 2px solid whitesmoke;
+}
+
+.article1-read-more-container-title {
+    margin-left: 20px;
+}
+
+.article1-read-more-container-button {
+    margin-right: 20px;
+}
+
+.article2-read-more-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content:space-between;
+    border: 2px solid whitesmoke;
+}
+
+.article2-read-more-container-title {
+    margin-left: 20px;
+}
+
+.article2-read-more-container-button {
+    margin-right: 20px;
+}
+
+.article3-read-more-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content:space-between;
+    border: 2px solid whitesmoke;
+}
+
+.article3-read-more-container-title {
+    margin-left: 20px;
+}
+
+.article3-read-more-container-button {
+    margin-right: 20px;
+}
+
+.article4-read-more-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content:space-between;
+    border: 2px solid whitesmoke;
+}
+
+.article4-read-more-container-title {
+    margin-left: 20px;
+}
+
+.article4-read-more-container-button {
+    margin-right: 20px;
+}
+
+
+.bottom-middle-panel {
+    display: flex;
+    flex: 1;
+
+    margin-bottom: 40px;
+    padding: 0;
+
+    height: 400px;
+    width: auto;
+
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-panel-title {
+    padding: 0;
+    margin: 0;
+
+
+    height: 20px;
+    width: max-content;
+
+    font-size: larger;
+    font-weight: 900;
+
+
+    margin-bottom: 20px;
+    margin-left: -1050px;
+}
+
+.chlothing-item-container {
+    display: flex;
+
+    padding: 0;
+    margin: 0;
+
+
+    height: 300px;
+    width: 1200px;
+
+    justify-content: space-between;
+}
+
+.chlothing-box1 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+
+    height: 300px;
+    width: 200px;
+}
+
+.chlothing-image-container {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    
+    height: 250px;
+    width: 200px;
+}
+
+.chlothing-description {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+}
+.chlothing-name {
+    width: max-content;
+
+    padding: 0;
+    margin: 0;
+}
+
+.chlothing-size {
+    width: max-content;
+
+    padding: 0;
+    margin: 0;
+}
+
+.chlothing-price {
+    /* width: max-content; */
+
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.another-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
